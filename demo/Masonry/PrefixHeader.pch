@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  Masonry
+//
+//  Created by LXY on 16/4/30.
+//  Copyright © 2016年 AVGD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//masonry取消mas宏
+#define MAS_SHORTHAND
+
+
+//third party
+#import <Masonry/Masonry.h>  /* 约束 */
+#import "SVProgressHUD.h"  /* 提示框 */
+#import "SIAlertView.h"  /* 弹出框 */
+#import <TSMessages/TSMessageView.h>  /* 导航控制器提示消息 */
+#import "SVHTTPClient.h"  /* 网络请求 */
+#import <IQKeyboardManager/IQKeyboardManager.h>  /* 键盘 */
+#import <MJExtension/MJExtension.h>  /* 模型 */
+#import <SDWebImage/UIImageView+WebCache.h>  /* 图片 */
+#import <MJRefresh.h>  /* 下拉刷新控件 */
+
+
+//macro
+#import "CoreConst.h"   /* 常量 */
+#import "NetworkMacro.h"   /* 数据请求接口 */
+
+
+//类目
+#import "NSDate+Extend.h"
+#import "NSString+Password.h"
+
+//错误视图
+#import "ETNoneDataView.h"
+
+
+#endif /* PrefixHeader_pch */
